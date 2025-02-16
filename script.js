@@ -4,7 +4,7 @@ function checkBalance() {
     
     if (enteredPin === correctPin) {
         document.getElementById("balance").style.display = "block";
-        document.getElementById("amount").innerText = "1025";  // Yaha manually balance update kar
+        document.getElementById("amount").innerText = "1785";  // Yaha manually balance update kar
     } else {
         alert("Wrong PIN!");
     }
