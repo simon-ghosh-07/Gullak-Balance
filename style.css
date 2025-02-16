@@ -1,3 +1,23 @@
-body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }
-input, button { margin: 10px; padding: 5px; font-size: 16px; }
-button { cursor: pointer; }
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+input, button {
+    margin: 10px;
+    padding: 8px;
+}
+
+button {
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: darkblue;
+}
