@@ -3,17 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gullak Balance</title>
+    <title>Gullak & Chillad Balance</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Gullak Balance</h1>
-    <input type="password" id="pin" placeholder="Enter PIN">
-    <button id="checkBalance">Check Balance</button>
-    <p>Total Balance: <span id="balance">₹0</span></p>
-    
-    <!-- New Update Balance Button -->
-    <button id="updateBalance">Update Balance</button>
+    <div id="loginPage">
+        <h2>Login</h2>
+        <input type="text" id="username" placeholder="Enter Username">
+        <input type="password" id="password" placeholder="Enter Password">
+        <button id="loginBtn">Login</button>
+    </div>
+
+    <div id="balancePage" style="display:none;">
+        <h1>Gullak & Chillad Balance</h1>
+        
+        <h3>Gullak Balance</h3>
+        <input type="password" id="pinGullak" placeholder="Enter PIN">
+        <button id="checkGullakBalance">Check Balance</button>
+        <p>Gullak: ₹<span id="gullakBalance">0</span></p>
+        <button id="updateGullakBalance">Update Balance</button>
+
+        <h3>Chillad Balance</h3>
+        <input type="password" id="pinChillad" placeholder="Enter PIN">
+        <button id="checkChilladBalance">Check Balance</button>
+        <p>Chillad: ₹<span id="chilladBalance">0</span></p>
+        <button id="updateChilladBalance">Update Balance</button>
+
+        <h3>Total Balance</h3>
+        <input type="password" id="pinTotal" placeholder="Enter PIN">
+        <button id="checkTotalBalance">Check Balance</button>
+        <p>Total: ₹<span id="totalBalance">0</span></p>
+    </div>
 
     <script src="script.js"></script>
 </body>
