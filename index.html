@@ -9,8 +9,11 @@
 <body>
     <h1>Gullak Balance</h1>
     <input type="password" id="pin" placeholder="Enter PIN">
-    <button onclick="checkBalance()">Check Balance</button>
-    <p id="balance" style="display:none;">Total Balance: ₹<span id="amount">0</span></p>
+    <button id="checkBalance">Check Balance</button>
+    <p>Total Balance: <span id="balance">₹0</span></p>
+    
+    <!-- New Update Balance Button -->
+    <button id="updateBalance">Update Balance</button>
 
     <script src="script.js"></script>
 </body>
